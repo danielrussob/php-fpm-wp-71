@@ -20,7 +20,7 @@ RUN apt-get update -yqq && \
 
 USER root
 RUN apt-get update -yqq && \
-        apt-get install -y --force-yes jpegoptim optipng pngquant gifsicle \
+        apt-get install -y --force-yes jpegoptim optipng pngquant gifsicle
 
 RUN apt-get update -y && \
     apt-get install -y libmagickwand-dev imagemagick && \
